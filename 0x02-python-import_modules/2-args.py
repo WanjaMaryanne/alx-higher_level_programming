@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 if __name __ = "__main__":
     import sys
 

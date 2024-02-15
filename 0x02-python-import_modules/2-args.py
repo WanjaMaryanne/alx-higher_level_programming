@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-if name __ = __main
+if __name __ = "__main__":
     import sys
 
     n = len(sys.argv)

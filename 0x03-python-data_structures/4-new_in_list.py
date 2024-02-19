@@ -1,6 +1,9 @@
-#!/usr/bin/env python3
-no_c = __import__('5-no_c').no_c
+#!/usr/bin/python3
+def new_in_list(my_list, idx, element):
 
-print(no_c("Best School"))
-print(no_c("Chicago"))
-print(no_c("C is fun!"))
+    if idx < 0 or idx > (len(my_list) - 1):
+        return (my_list)
+
+    copy = [x for x in my_list]
+    copy[idx] = element
+    return (copy)
